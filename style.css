@@ -1,8 +1,44 @@
-body {
-  font-family: Arial;
-  padding: 20px;
+element.style {
 }
+:root {
+    --fg: #0f172a;
+    --bg: #eaf3ee;
+    --bg2: #dfeee7;
+    --card: #ffffff;
+    --line: #d7e6dc;
+    --ok: #0a6b3a;
+    --ok2: #0f8a4b;
+    --l: #0a6b3a;
+    --v: #c62828;
+    --e: #6b7280;
+    --pick: 54px;
+    --list-blue: #0b6cff;
+    --rowA: #f6fbf8;
+    --rowB: #eff7f2;
+    --shadow: 0 8px 20px rgba(2, 44, 20, .10);
+}
+html, body {
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "es";
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+MCP server
+Let your favourite coding agent debug your pages at runtime, using the Chrome DevTools MCP server.
 
-.partido {
-  margin: 10px 0;
-}
+Improved trace sharing
+Optionally include resource content and script source maps in exported performance traces.
+
+Support for @starting-style
+Debug and identify CSS entry animations using the new adorner in the Elements panel.
